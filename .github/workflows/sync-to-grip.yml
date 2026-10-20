@@ -32,7 +32,7 @@ jobs:
 
       - name: Copy add-on into Grip
         run: |
-          rm -rf grip/extensions/blender_tracking grip/extensions/blender_tracking
+          rm -rf grip/extensions/blender_tracking
           mkdir -p grip/extensions/blender_tracking
           cp -r blender_tracking/. grip/extensions/blender_tracking/
           find grip/extensions/blender_tracking -name "__pycache__" -type d -prune -exec rm -rf {} +
