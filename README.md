@@ -1,3 +1,13 @@
+<h1 align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./media/logo_light.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./media/logo_dark.svg">
+    <!-- The fallback image for older browsers -->
+    <img alt="blender_tracking" src="./media/logo_light.svg" width="200">
+  </picture>
+  <br>
+</h1>
+
 # Geometry Nodes JSON Exporter
 
 A Blender extension designed to automatically extract and apply input values from all internal nodes of specified Geometry Node groups via a structured JSON file.
